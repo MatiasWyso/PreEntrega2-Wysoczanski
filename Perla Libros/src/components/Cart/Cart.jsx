@@ -4,11 +4,13 @@ import { AiFillDelete} from 'react-icons/ai';
 import { Link } from "react-router-dom";
 
 const Cart = () => {
-    const { cart, deleteAll, deleteOne } = useContext(cartContext);
+    const { cart, deleteAll, deleteOne, precioTotal } = useContext(cartContext);
+    const total = precioTotal();
+
 
     if (cart.length === 0) {
-        return <h1>Sin productos</h1>;
-    }
+        return <h1 style={{minHeight:"75vh"}}>Sin productos</h1>;
+        }
 
     return (
         <div className="cart-container">
@@ -29,11 +31,10 @@ const Cart = () => {
                     />
                 </div>
             ))}
-
-
-            <h2>Total: $0</h2>
-            <button onClick={deleteAll}>Eliminar todo el carrito</button>
-            <Link to='/checkout'>Finalizar compra</Link>
+            <div className="container-buy">
+            <h2>Total: ${total}</h2>
+            <button onClick={deleteAll} style={{ backgroundColor: "red",borderRadius: "6px", border:"none",color: "black",padding: "5px",width: "80px"}}><AiFillDelete size="30"/></button>
+            <Link to='/checkout' style={{ borderRadius: "6px",backgroundColor: "green", color: "black",fontSize:"18px", padding: "10px",width: "80px"}}>Finalizar</Link> </div>
         </div>
     );
 };

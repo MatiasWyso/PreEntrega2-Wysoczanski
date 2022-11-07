@@ -30,7 +30,6 @@ const ItemListContainer = () => {
                       ...prod.data(),
                   };
               });
-              //console.log(products);
               setItems(products);
           })
           .catch((error) => {
@@ -53,7 +52,6 @@ const ItemListContainer = () => {
               }}
           >
               <PropagateLoader style={{ marginTop: '100px' }} color="black" />
-              {/* <h1>Cargando...</h1> */}
           </div>
       );
   }

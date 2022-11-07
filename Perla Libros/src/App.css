@@ -129,6 +129,12 @@ main {
   box-shadow: 0px 0px 4px 0.2px var(--primary);
 }
 
+
+.alert{
+  display: none
+}
+
+
 .countDiv {
   display: flex;
   flex-direction: row;
@@ -262,6 +268,16 @@ a {
   align-items: flex-start;
 }
 
+.container-buy{
+  width: 400px;
+  background-color: rgb(22, 155, 165);
+  padding:10px 20px;
+  margin-top: 10px;
+   border-radius: 7px;
+   box-sizing: border-box;
+   margin-left: 800px
+}
+
 .cart-detail-info h2 {
   background-color: var(--secondary);
   color: var(--primary);
@@ -280,3 +296,20 @@ a {
   margin-top: 6px;
   font-size: 16px;
  }
+
+ /* FORM */
+
+ .form-buy{
+    width: 350px;
+    margin: auto;
+    background-color: var(--primary);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+
+ }
+
+ .alert{
+  display: none;
+}

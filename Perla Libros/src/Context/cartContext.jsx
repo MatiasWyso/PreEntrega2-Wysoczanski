@@ -48,26 +48,23 @@ const Provider = ({ children }) => {
         return acc;
     };
 
-   /*va por aca para hacer el precio total
    
-   const = precioTotal = () => {
-    let = accPrecio = 0 
+   const precioTotal = () => {
+    let accPrecio = 0 
     const copia = [...cart];
     copia.forEach((prod) => {
     accPrecio = accPrecio + (prod.price * prod.cantidad);
     });
     return accPrecio
-    }
-      
-   */
+    };   
   
- // Prueba :
-    const total = () => { return 1000}
+
+ //    const total = () => { return 1000}
 
 
     return (
         <cartContext.Provider
-            value={{ cart, total, totalUnidades, addToCart, deleteAll, deleteOne }}
+            value={{ cart, precioTotal, totalUnidades, addToCart, deleteAll, deleteOne }}
         >
             {children}
         </cartContext.Provider>
