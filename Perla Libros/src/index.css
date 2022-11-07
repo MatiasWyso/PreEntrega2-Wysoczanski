@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -14,4 +14,5 @@ code {
 
 nav {
   margin-bottom: 20px;
+  background-image: url(https://sites.google.com/site/dptodehidraulicaingcivilunefm/_/rsrc/1457576685247/biblioteca/biblioteca_header.jpg);
 }
