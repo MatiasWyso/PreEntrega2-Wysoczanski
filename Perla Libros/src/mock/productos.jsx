@@ -64,7 +64,7 @@ export const products = [
     price: 4000,
     stock: 100,
     category: "CF",
-    img: "https://planetadelibrosar2.cdnstatics.com/usuaris/libros/fotos/137/original/portada_el-senor-de-los-anillos-i-la-comunidad-del-anillo_j-r-r-tolkien_202004261959.jpg",
+    img: "https://images.cdn1.buscalibre.com/fit-in/360x360/35/2e/352e63af40b5cc4eada5cee03da49412.jpg",
   },
   {
     id: "A12050005026",
@@ -82,7 +82,7 @@ export const products = [
     title: "Calles",
     brand: "Felipe Pigna",
     description:
-    "Este no es un libro tradicional, uno de esos que empiezan y terminan, que se leen linealmente, perfectamente como una novela o un volumen de cuentos, aunque podrías perfectamente abordarlo de manera ortodoxa y disfrutar de la lectura. Tampoco es un diccionario de las calles de Buenos Aires, una obra de referencia a la cual recurrir cuando queramos saber por qué una calle se llama como se llama; sin embargo, al final encontrarás un índice onomástico donde buena parte de las calles están ordenadas alfabéticamente para que puedas encontrarlas. Por último, tampoco es un volumen individual: se trata de una colección que está en proceso y que pretende ir tan lejos como pueda.",
+      "Este no es un libro tradicional, uno de esos que empiezan y terminan, que se leen linealmente, perfectamente como una novela o un volumen de cuentos, aunque podrías perfectamente abordarlo de manera ortodoxa y disfrutar de la lectura. Tampoco es un diccionario de las calles de Buenos Aires, una obra de referencia a la cual recurrir cuando queramos saber por qué una calle se llama como se llama; sin embargo, al final encontrarás un índice onomástico donde buena parte de las calles están ordenadas alfabéticamente para que puedas encontrarlas. Por último, tampoco es un volumen individual: se trata de una colección que está en proceso y que pretende ir tan lejos como pueda.",
     price: 3500,
     stock: 100,
     category: "Historia",
