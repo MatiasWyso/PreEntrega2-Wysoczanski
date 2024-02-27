@@ -57,7 +57,7 @@ export const products = [
   },
   {
     id: "A01006005008",
-    title: "Señor de los Anillos: La comunidad del Anillo",
+    title: "asd",
     brand: "J. R. R. Tolkien",
     description:
       "Un viaje mágico que reune magos, hombres, elfos y enanos para atravesar la Tierra Media en una misión casi suicida. ",
@@ -68,7 +68,7 @@ export const products = [
   },
   {
     id: "A12050005026",
-    title: "Sapiens: de animales a dioses",
+    title: "asd",
     brand: "Yuval Noah Harari",
     description:
       "Sapiens. De animales a dioses: Una breve historia de la humanidad es un libro escrito por Yuval Noah Harari, historiador y escritor israelí, publicado originalmente en hebreo en el 2011, y en traducción al inglés, al español y a más de treinta idiomas a partir del 2014.",
